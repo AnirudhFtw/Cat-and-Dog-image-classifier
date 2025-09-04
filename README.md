@@ -9,13 +9,13 @@ This project is a deep learning-based image classifier that distinguishes betwee
 - The dataset contains images of cats and dogs split into **train**, **validation**, and **test** sets.  
 - Folder structure:
 cats_and_dogs/
-train/
-cats/ # Training images of cats
-dogs/ # Training images of dogs
-validation/
-cats/ # Validation images of cats
-dogs/ # Validation images of dogs
-test/ # Test images (unlabeled)
+├── train/
+│ ├── cats/ # Training images of cats
+│ └── dogs/ # Training images of dogs
+├── validation/
+│ ├── cats/ # Validation images of cats
+│ └── dogs/ # Validation images of dogs
+└── test/ # Test images (unlabeled)
 (images)
 
 
